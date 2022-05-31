@@ -3,7 +3,7 @@ cp /usr/share/zoneinfo/Asia/Riyadh /etc/localtime
 #Database Details
 HOST='172.105.250.34';
 USER='scvpnapp_yoyop';
-PASS='@@AlaMinbd27';
+PASS='@@DrmtCtre41';
 DBNAME='scvpnapp_yoyop';
 
 install_require()
